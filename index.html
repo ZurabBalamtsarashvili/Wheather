@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/cloudy-day.png">
+    <title>Weather-widget</title>
+</head>
+<body>
+    <div class="weather">
+        <a class="weatherwidget-io gori" href="https://forecast7.com/en/41d9944d11/gori/" data-label_1="GORI" data-label_2="WEATHER" data-theme="original" data-basecolor="rgba(31, 86, 124, 0.55)" >GORI WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+        <a class="weatherwidget-io kaspi" href="https://forecast7.com/en/41d9344d42/kaspi/" data-label_1="KASPI" data-label_2="WEATHER" data-theme="original" data-basecolor="rgba(31, 86, 124, 0.55)" >KASPI WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+    </div>
+    <img class="Amindi-image" src="/images/Weather-background.jpg" alt="Amindi, Amindi-picture, Weather, Weather-app, Weather-image">
+    <div class="login">
+        <h3>Do You Want to get weather news every day?</h3>
+        <input type="email" name="e-mail" id="mail-box" placeholder="Email" autocomplete="off" required>
+        <label for="Radio-C-Only"><input type="radio" name="News" id="Radio-C-Only" class="radio">I want to get news only on my country</label>
+        <label for="Radio-world"><input type="radio" name="News" id="Radio-world" class="radio""">I want to get  news about the world</label>
+        <a href="#"><button class="submit-btn" type="submit" value="submit">Submit</button></a>
+    </div>
+</body>
+</html>
